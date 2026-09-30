@@ -1,6 +1,6 @@
 {
   "name": "logsentinel-memory-guard",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Vazamento silencioso de memória em serviços Node.js devido a listeners de stream acumulados.",
   "type": "module",
   "main": "src/index.ts",
