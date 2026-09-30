@@ -22,10 +22,8 @@
 
 ## 🎮 Live Interactive Playground (No Backend Required)
 
-Experimente o simulador em tempo real executando 100% no seu navegador com WebCrypto, Token Bucket e Write-Ahead Logging:  
-👉 **[Acessar Live Playground do LogSentinel Memory Guard](https://felipemadson.github.io/logsentinel-memory-guard/)**
-
----
+Experimente o emulador de terminal interativo com execução de comandos, histórico via setas e autocompletação inteligente via Tab:
+👉 **[Acessar Live Playground do Logsentinel Memory Guard](https://felipemadson.github.io/logsentinel-memory-guard/)**
 
 ## 🖥️ Demonstração em Terminal Vetorial (Execução & Benchmarks)
 
