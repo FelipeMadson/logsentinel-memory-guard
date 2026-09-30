@@ -20,14 +20,6 @@
 
 ---
 
-## 📐 Arquitetura do Sistema & Fluxo de Dados
-
-<p align="center">
-  <img src="docs/assets/architecture.svg" alt="Arquitetura & Fluxo de Dados - Logsentinel Memory Guard" width="920" />
-</p>
-
----
-
 ## 🎮 Live Interactive Playground (No Backend Required)
 
 Experimente o simulador em tempo real executando 100% no seu navegador com WebCrypto, Token Bucket e Write-Ahead Logging:  
