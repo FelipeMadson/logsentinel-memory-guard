@@ -1,14 +1,14 @@
 {
   "_type": "export",
   "__export_format": 4,
-  "__export_date": "2026-09-30T19:50:32.074Z",
+  "__export_date": "2026-09-30T19:54:31.437Z",
   "__export_source": "insomnia.desktop.app:v2023.5.8",
   "resources": [
     {
       "_id": "wrk_logsentinel-memory-guard_suite",
       "_type": "workspace",
-      "created": 1790797832074,
-      "modified": 1790797832074,
+      "created": 1790798071437,
+      "modified": 1790798071437,
       "name": "LogSentinel Memory Guard API Suite",
       "description": "Ambiente Insomnia para LogSentinel Memory Guard. Autor: Felipe Madison (@FelipeMadson)",
       "scope": "collection"
@@ -17,8 +17,8 @@
       "_id": "env_logsentinel-memory-guard_base",
       "_type": "environment",
       "parentId": "wrk_logsentinel-memory-guard_suite",
-      "created": 1790797832074,
-      "modified": 1790797832074,
+      "created": 1790798071437,
+      "modified": 1790798071437,
       "name": "Local Development",
       "data": {
         "base_url": "http://localhost:3000",
@@ -29,8 +29,8 @@
       "_id": "req_logsentinel-memory-guard_1",
       "_type": "request",
       "parentId": "wrk_logsentinel-memory-guard_suite",
-      "created": 1790797832074,
-      "modified": 1790797832074,
+      "created": 1790798071437,
+      "modified": 1790798071437,
       "name": "1. Health & Liveness Probe",
       "method": "GET",
       "url": "{{ _.base_url }}/health",
@@ -55,8 +55,8 @@
       "_id": "req_logsentinel-memory-guard_2",
       "_type": "request",
       "parentId": "wrk_logsentinel-memory-guard_suite",
-      "created": 1790797832075,
-      "modified": 1790797832075,
+      "created": 1790798071438,
+      "modified": 1790798071438,
       "name": "2. OpenMetrics / Prometheus Telemetry",
       "method": "GET",
       "url": "{{ _.base_url }}/metrics",
@@ -81,8 +81,8 @@
       "_id": "req_logsentinel-memory-guard_3",
       "_type": "request",
       "parentId": "wrk_logsentinel-memory-guard_suite",
-      "created": 1790797832076,
-      "modified": 1790797832076,
+      "created": 1790798071439,
+      "modified": 1790798071439,
       "name": "3. Dispatch / Processar Operação — LogSentinel Memory Guard",
       "method": "POST",
       "url": "{{ _.base_url }}/api/v1/logsentinel-memory-guard/dispatch",
@@ -103,15 +103,15 @@
       ],
       "body": {
         "mimeType": "application/json",
-        "text": "{\n  \"action\": \"PROCESS_TRANSACTION\",\n  \"payload\": {\n    \"clientId\": \"felipe-madison-tester\",\n    \"timestamp\": \"2026-09-30T19:50:32.074Z\",\n    \"data\": {\n      \"sampleKey\": \"enterprise-payload-sample\",\n      \"priority\": \"HIGH\"\n    }\n  }\n}"
+        "text": "{\n  \"action\": \"PROCESS_TRANSACTION\",\n  \"payload\": {\n    \"clientId\": \"felipe-madison-tester\",\n    \"timestamp\": \"2026-09-30T19:54:31.437Z\",\n    \"data\": {\n      \"sampleKey\": \"enterprise-payload-sample\",\n      \"priority\": \"HIGH\"\n    }\n  }\n}"
       }
     },
     {
       "_id": "req_logsentinel-memory-guard_4",
       "_type": "request",
       "parentId": "wrk_logsentinel-memory-guard_suite",
-      "created": 1790797832077,
-      "modified": 1790797832077,
+      "created": 1790798071440,
+      "modified": 1790798071440,
       "name": "4. Consulta de Estado Consolidado — LogSentinel Memory Guard",
       "method": "GET",
       "url": "{{ _.base_url }}/api/v1/logsentinel-memory-guard/state",
