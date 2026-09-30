@@ -171,7 +171,7 @@
         "description": "Executa transação com garantia de atomicidade, validação de integridade e registro no log WAL.",
         "body": {
           "mode": "raw",
-          "raw": "{\n  \"action\": \"PROCESS_TRANSACTION\",\n  \"payload\": {\n    \"clientId\": \"felipe-madison-tester\",\n    \"timestamp\": \"2026-09-30T21:28:11.619Z\",\n    \"data\": {\n      \"sampleKey\": \"enterprise-payload-sample\",\n      \"priority\": \"HIGH\"\n    }\n  }\n}",
+          "raw": "{\n  \"action\": \"PROCESS_TRANSACTION\",\n  \"payload\": {\n    \"clientId\": \"felipe-madison-tester\",\n    \"timestamp\": \"2026-09-30T21:28:17.010Z\",\n    \"data\": {\n      \"sampleKey\": \"enterprise-payload-sample\",\n      \"priority\": \"HIGH\"\n    }\n  }\n}",
           "options": {
             "raw": {
               "language": "json"
