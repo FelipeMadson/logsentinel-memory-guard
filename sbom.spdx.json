@@ -3,9 +3,9 @@
   "dataLicense": "CC0-1.0",
   "SPDXID": "SPDXRef-DOCUMENT",
   "name": "LogSentinel Memory Guard SBOM",
-  "documentNamespace": "https://github.com/FelipeMadson/logsentinel-memory-guard/spdxdocs/logsentinel-memory-guard-1.0.0-53810f72-d596-4d88-b91d-91bba3ba1b69",
+  "documentNamespace": "https://github.com/FelipeMadson/logsentinel-memory-guard/spdxdocs/logsentinel-memory-guard-1.0.0-1aaf981b-d3e9-4b80-a388-04243b9a2d10",
   "creationInfo": {
-    "created": "2026-10-01T06:01:59.404Z",
+    "created": "2026-10-01T06:02:01.720Z",
     "creators": [
       "Person: Felipe Madison (@FelipeMadson)",
       "Organization: Autonomous Portfolio Engine — Staff Engineering Grade",
