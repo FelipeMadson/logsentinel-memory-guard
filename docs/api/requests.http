@@ -52,7 +52,7 @@ Content-Type: {{contentType}}
   "action": "PROCESS_TRANSACTION",
   "payload": {
     "clientId": "felipe-madison-tester",
-    "timestamp": "2026-10-01T11:23:24.731Z",
+    "timestamp": "2026-10-01T11:23:27.450Z",
     "data": {
       "sampleKey": "enterprise-payload-sample",
       "priority": "HIGH"
