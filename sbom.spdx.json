@@ -1,0 +1,46 @@
+{
+  "spdxVersion": "SPDX-2.3",
+  "dataLicense": "CC0-1.0",
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "name": "LogSentinel Memory Guard SBOM",
+  "documentNamespace": "https://github.com/FelipeMadson/logsentinel-memory-guard/spdxdocs/logsentinel-memory-guard-1.0.0-c61d9229-e0bc-4a00-8164-1433862acc68",
+  "creationInfo": {
+    "created": "2026-10-09T18:43:52.442Z",
+    "creators": [
+      "Person: Felipe Madison (@FelipeMadson)",
+      "Organization: Autonomous Portfolio Engine — Staff Engineering Grade",
+      "Tool: SecurityCiGenerator-1.0.0"
+    ],
+    "licenseListVersion": "3.21"
+  },
+  "packages": [
+    {
+      "name": "logsentinel-memory-guard",
+      "SPDXID": "SPDXRef-Package-logsentinel-memory-guard",
+      "versionInfo": "1.0.0",
+      "packageFileName": "logsentinel-memory-guard-1.0.0.tar.gz",
+      "packageSupplier": "Person: Felipe Madison (https://github.com/FelipeMadson)",
+      "originator": "Person: Felipe Madison (https://github.com/FelipeMadson)",
+      "downloadLocation": "git+https://github.com/FelipeMadson/logsentinel-memory-guard.git@v1.0.0",
+      "filesAnalyzed": false,
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "5a143cf7e5d4459a55e8da22c226297e79aa9fc155a21337d83bf6e2376c9fba"
+        }
+      ],
+      "homepage": "https://github.com/FelipeMadson/logsentinel-memory-guard",
+      "concludedLicense": "MIT",
+      "declaredLicense": "MIT",
+      "copyrightText": "Copyright (c) 2026 Felipe Madison (@FelipeMadson)",
+      "description": "Enterprise-grade production release for LogSentinel Memory Guard, engineered by Felipe Madison."
+    }
+  ],
+  "relationships": [
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relatedSpdxElement": "SPDXRef-Package-logsentinel-memory-guard",
+      "relationshipType": "DESCRIBES"
+    }
+  ]
+}
