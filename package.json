@@ -1,0 +1,31 @@
+{
+  "name": "logsentinel-memory-guard",
+  "version": "1.0.0",
+  "description": "Vazamento silencioso de memória em serviços Node.js devido a listeners de stream acumulados.",
+  "type": "module",
+  "main": "src/index.ts",
+  "bin": {
+    "logsentinel-memory-guard": "src/cli/cli.ts"
+  },
+  "scripts": {
+    "start": "node --experimental-strip-types src/index.ts",
+    "cli": "node --experimental-strip-types src/cli/cli.ts",
+    "test": "node --experimental-strip-types --test tests/**/*.test.ts",
+    "build": "tsc --noEmit"
+  },
+  "keywords": [
+    "enterprise",
+    "clean-architecture",
+    "local-first",
+    "typescript",
+    "tsi",
+    "zero-dependency",
+    "logsentinel-memory-guard"
+  ],
+  "author": "Felipe Madison (@FelipeMadson)",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^22.10.2",
+    "typescript": "^5.7.2"
+  }
+}
