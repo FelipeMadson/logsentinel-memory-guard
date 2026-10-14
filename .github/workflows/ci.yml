@@ -21,8 +21,11 @@ jobs:
       with:
         node-version: ${{ matrix.node-version }}
 
+    - name: Install locked dependencies
+      run: npm ci --ignore-scripts
+
     - name: Executar Testes Corporativos (18 testes com node:test)
       run: npm test
 
     - name: Verificar Tipagem Estrita TypeScript
-      run: npm run build || true
+      run: npm run build
