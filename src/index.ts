@@ -151,3 +151,5 @@ export class LogsentinelMemoryGuard {
 }
 
 export default LogsentinelMemoryGuard;
+
+export { createStreamListenerGuard } from './stream-listener-guard.ts';
